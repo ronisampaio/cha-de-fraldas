@@ -17,7 +17,7 @@ body {
 }
 
 main.container {
-    background-image: url(./assets/fundo1.jpg);
+    background-image: url(./fundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
