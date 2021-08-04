@@ -17,7 +17,7 @@ body {
 }
 
 main.container {
-    background-image: url(./fundo1.jpg);
+    background-image: url(fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -47,19 +47,20 @@ form{
 .input-field input {
     outline: none;
     font-size: 10px;
-    color: #e740e2;
-    width: 230px;
+    font-weight: 700;
+    color: #e87ea1;
+    width: 100px;
     border-bottom: solid 1px #e87ea1;
     position: relative;
     top: 15px;
 }
 
 .input-field input::placeholder {
-    color: #e740e2;
+    color: #e87ea1;
 }
 
 form input[type="submit"] {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     padding: 3px;
     width: 30%;
     background: linear-gradient(to left, #e87ea1, #e740e2);
