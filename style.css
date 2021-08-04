@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #ff5d8f; 
+}
+
+body {
+    background-color: #c4ebea;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container {
+    background-image: url(./assets/fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 350px;
+    height: 350px;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    position: absolute;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 120px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field input {
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(255, 146, 193, 0.7);
+    width: 60%;
+    border-bottom: solid 1px #e87ea1;
+    position: relative;
+    top: 15px;
+}
+
+.input-field input::placeholder {
+    color: rgba(255, 146, 193, 0.7);
+}
+
+form input[type="submit"] {
+    margin-top: 2.5rem;
+    padding: 3px;
+    width: 30%;
+    background: linear-gradient(to left, #e87ea1, #e740e2);
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+}
