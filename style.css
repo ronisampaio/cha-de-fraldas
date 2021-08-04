@@ -8,7 +8,10 @@
 }
 
 body {
-    background: #c4ebea;
+    background-image: url(fundo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100vw;
     display: flex;
